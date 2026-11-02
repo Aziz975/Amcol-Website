@@ -3,4 +3,16 @@
 @theme {
   --font-heading: "Roboto Slab", serif;
   
+  /* Automatically generates the animate-marquee utility */
+  --animate-marquee: marquee 25s linear infinite;
+}
+
+/* Define the keyframes for smooth continuous right-to-left scrolling */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
