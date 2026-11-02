@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import SectionHeading from "../Home/SectionHeading";
 import ProductSlider from "../ProductSlider/ProductSlider";
 import { featuredProducts } from "./featuredProducts";
+import DepartmentSlider from "../DepartmentSlider/DepartmentSlider";
+import { departments } from "./departmentData";
 
 export default function Home() {
     return (
@@ -48,6 +50,48 @@ export default function Home() {
                         label="Featured industrial products"
                     />
                 </div>
+                {/* Ready to order */}
+                <div className="mt-8 flex flex-col items-center gap-2 pb-10 text-center">
+                    <p className="text-gray-600">Ready to order?</p>
+                    <Link
+                        to="/login"
+                        className="inline-flex items-center justify-center rounded-md bg-[#DB1F40] px-6 py-3 text-[15px] font-bold text-white shadow-[0_8px_18px_rgba(219,31,64,0.24)] transition duration-200 hover:-translate-y-0.5 hover:bg-[#B3193A] hover:shadow-[0_12px_24px_rgba(179,25,58,0.35)]"
+                    >
+                        Click Here to Log In or Sign Up
+                    </Link>
+                </div>
+
+
+
+                {/* 3. Shop by Department */}
+                <section
+                    aria-labelledby="departments-heading"
+                    className="bg-[linear-gradient(to_bottom,#fdecee,#ffffff_240px)] py-12"
+                >
+                    <div className="mx-auto max-w-3xl px-5 text-center">
+                        <h2
+                            id="departments-heading"
+                            className="font-heading text-3xl font-bold text-[#1c2f6b] md:text-5xl"
+                        >
+                            Shop by Department
+                        </h2>
+                        <p className="mt-4 text-lg text-gray-800">
+                            Browse popular AMCOL Hardware departments for tools,{" "}
+                            <Link to="/products" className="text-[#d71920] hover:underline">
+                                building supplies
+                            </Link>
+                            , plumbing, electrical products and home improvement essentials.
+                        </p>
+                    </div>
+
+                    <div className="mt-10">
+                        <DepartmentSlider
+                            departments={departments}
+                            label="Shop by department"
+                        />
+                    </div>
+                </section>
+
             </section>
         </main>
     );
