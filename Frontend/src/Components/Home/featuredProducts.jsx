@@ -42,4 +42,26 @@ export const featuredProducts = [
     price: 200,
     image: "/images/products/ridgid-chain-wrench.jpg",
   },
+   {
+    id: 6,
+    name: "Sample Product 6",
+    slug: "sample-product-6",
+    price: 200,
+    image: "/images/products/ridgid-chain-wrench.jpg",
+  },
+   {
+    id: 6,
+    name: "Sample Product 6",
+    slug: "sample-product-6",
+    price: 200,
+    image: "/images/products/ridgid-chain-wrench.jpg",
+  },
+   {
+    id: 6,
+    name: "Sample Product 6",
+    slug: "sample-product-6",
+    price: 200,
+    image: "/images/products/ridgid-chain-wrench.jpg",
+  },
+  
 ];
