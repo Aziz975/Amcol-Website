@@ -18,7 +18,7 @@ export default function DepartmentSlider({ departments, label }) {
           <div
             key={`${department.id}-${index}`}
             aria-hidden={index >= departments.length ? "true" : undefined}
-            className="w-[280px] shrink-0 md:w-[400px]"
+            className="w-[240px] shrink-0 md:w-[320px]"
           >
             <DepartmentCard department={department} />
           </div>
