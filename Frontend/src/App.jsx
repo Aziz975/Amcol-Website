@@ -1,6 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-import Navbar from "../Components/Navbar/Navbar.jsx";
-import Home from "../Components/Home/Home.jsx";
+import Home from "./Components/Home/Home.jsx";
+
+import Navbar from "./Components/Navbar/Navbar.jsx";
+import Footer from "./Components/Footer/Footer.jsx";
 
 
 function Products() {
@@ -19,6 +21,7 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/construction" element={<Construction />} />
       </Routes>
+      <Footer></Footer>
     </>
   );
 }
