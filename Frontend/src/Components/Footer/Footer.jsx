@@ -5,10 +5,9 @@ import {
   MapPin,
   Clock3,
   Pause,
-  Instagram,
   ChevronUp,
 } from "lucide-react";
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   const quickLinks = [
@@ -226,7 +225,7 @@ const Footer = () => {
                 aria-label="Instagram"
                 className="text-[#929292] transition-colors hover:text-white"
               >
-                <Instagram size={19} strokeWidth={2.2} />
+                <FaInstagram size={19} strokeWidth={2.2} />
               </a>
 
               {/* Back to Top */}
