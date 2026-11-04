@@ -1,0 +1,58 @@
+export const departments = [
+  {
+    id: 1,
+    title: "Doors & Windows",
+    slug: "doors-and-windows",
+    description: "Browse hardware, locks, hinges and supplies for doors and windows.",
+    image: "/images/door.png",
+  },
+  {
+    id: 2,
+    title: "Lawn & Garden",
+    slug: "lawn-and-garden",
+    description: "Shop outdoor, garden and landscaping products for property care.",
+    image: "/images/garden.png",
+  },
+  {
+    id: 3,
+    title: "Hand Tools",
+    slug: "hand-tools",
+    description: "Browse everyday hand tools for repairs, maintenance and jobsite work.",
+    image: "/images/handtool.png",
+  },
+  {
+    id: 4,
+    title: "Power Tools",
+    slug: "power-tools",
+    description: "Find corded tools, drill accessories and equipment for heavier jobs.",
+    image: "/images/powertool.png",
+  },
+  {
+    id: 5,
+    title: "Plumbing",
+    slug: "plumbing",
+    description: "Shop pipe fittings, PVC, plumbing tools and related repair supplies.",
+    image: "/images/plumbing.png",
+  },
+  {
+    id: 6,
+    title: "Electrical",
+    slug: "electrical",
+    description: "Browse lighting, fixtures, electrical tools and installation supplies.",
+    image: "/images/electrical.png",
+  },
+  {
+    id: 7,
+    title: "Paint",
+    slug: "paint",
+    description: "Explore paint, coatings, brushes, rollers and painting accessories.",
+    image: "/images/paint.png",
+  },
+   {
+    id: 7,
+    title: "Building Materials",
+    slug: "building-materials",
+    description: "Find construction materials for home, commercial and contractor use.",
+    image: "/images/building.png",
+  },
+];
