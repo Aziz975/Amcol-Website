@@ -1,6 +1,9 @@
 import HeroSection from "../Components/Home/HeroSection";
  import FeaturedProductsSection from "../Components/Home/FeaturedProductsSection";
  import ShopByDepartmentSection from "../Components/Home/ShopByDepartmentSection";
+import PerksSection from "../Components/Home/PerksSection";
+import TopSellingCategoriesSection from "../Components/Home/TopSellingCategoriesSection";
+import AboutUsSection from "../Components/AboutUs/AboutUsSection";
 
 export default function Home() {
   return (
@@ -8,6 +11,9 @@ export default function Home() {
       <HeroSection />
       <FeaturedProductsSection />
       <ShopByDepartmentSection />
+      <PerksSection />
+      <TopSellingCategoriesSection />
+      <AboutUsSection />
     </main>
   );
 }
