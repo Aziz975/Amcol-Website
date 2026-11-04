@@ -1,14 +1,18 @@
 
 import React from "react";
+
 import {
   Phone,
   MapPin,
   Clock3,
   Pause,
-  Instagram,
   ChevronUp,
 } from "lucide-react";
-import { FaFacebookF } from "react-icons/fa";
+
+import {
+  FaFacebookF,
+  FaInstagram,
+} from "react-icons/fa";
 
 const Footer = () => {
   const quickLinks = [
@@ -121,6 +125,7 @@ const Footer = () => {
                 </a>
               </div>
 
+              {/* Address */}
               <div>
                 <p className="text-[#e1e1e1]">Address:</p>
 
@@ -187,7 +192,6 @@ const Footer = () => {
         {/* Payment Logos, Social Icons and Back to Top */}
         <div className="mt-10 flex flex-col gap-6 pb-6 sm:mt-12 lg:mt-11">
 
-          {/* Payment Logos and Social Icons */}
           <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-center">
 
             {/* Payment Logos */}
@@ -226,7 +230,7 @@ const Footer = () => {
                 aria-label="Instagram"
                 className="text-[#929292] transition-colors hover:text-white"
               >
-                <Instagram size={19} strokeWidth={2.2} />
+                <FaInstagram size={19} />
               </a>
 
               {/* Back to Top */}
