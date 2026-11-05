@@ -95,7 +95,7 @@ export default function AboutUsSection() {
                         </div>
 
                         {/* Right Text Content */}
-                        <div className="flex flex-col justify-between lg:col-span-8">
+                        <div className="flex flex-col justify-center lg:col-span-8">
                             <div className="space-y-4 text-sm leading-relaxed md:text-base">
                                 <p className="font-bold text-gray-800">
                                     {content.guidingPrinciples}
