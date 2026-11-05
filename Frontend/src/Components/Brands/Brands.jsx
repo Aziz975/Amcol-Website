@@ -1,5 +1,5 @@
-import React from "react";
 import { brandsData } from "./BrandsData";
+import React from "react";
 
 export default function Brands() {
   // Seamless loop ke liye same set 2 baar
