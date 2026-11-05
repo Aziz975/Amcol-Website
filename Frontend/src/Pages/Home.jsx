@@ -6,6 +6,7 @@ import TopSellingCategoriesSection from "../Components/Home/TopSellingCategories
 import AboutUsSection from "../Components/AboutUs/AboutUsSection";
 import HardwareSupplies from "../Components/HardwareSupplies/HardwareSupplies";
 import FaqSection from "../Components/Faq/FaqSection";
+import Brands from "../Components/Brands/Brands";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <AboutUsSection />
       <HardwareSupplies />
       <FaqSection />
+      <Brands />
     </main>
   );
 }
