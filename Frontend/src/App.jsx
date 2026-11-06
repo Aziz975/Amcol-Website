@@ -3,6 +3,8 @@ import Home from "./Pages/Home.jsx";
 import Construction from "./Components/Construction/Construction.jsx";
 import Navbar from "./Components/Navbar/Navbar.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
+import Product from "./Components/Products/Products.jsx";
+
 
 
 
@@ -12,8 +14,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/products" element={<Products />} /> */}
         <Route path="/construction" element={<Construction />} />
+        <Route path="/products" element={<Product/>} />
       </Routes>
       <Footer></Footer>
     </>
