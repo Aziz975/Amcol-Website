@@ -4,6 +4,7 @@ import Construction from "./Components/Construction/Construction.jsx";
 import Navbar from "./Components/Navbar/Navbar.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 import Product from "./Components/Products/Products.jsx";
+import Industrial from "./Pages/Industrial.jsx";
 
 
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/construction" element={<Construction />} />
         <Route path="/products" element={<Product/>} />
+        <Route path="/industrial" element={<Industrial/>} />
       </Routes>
       <Footer></Footer>
     </>
