@@ -1,4 +1,4 @@
-import { brandsData } from "./BrandsData";
+import { brandsData } from "./brandsData";
 import React from "react";
 
 export default function Brands() {
