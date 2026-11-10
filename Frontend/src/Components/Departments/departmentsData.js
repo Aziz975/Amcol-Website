@@ -1,5 +1,3 @@
-// Full department -> category data from the AMCOL Hardware site.
-// Edit categories here; the page updates automatically.
 export const departments = {
   "Automotive": ["Automotive Cleaning Supplies","Automotive Tools","Batteries, Chargers & Cables","Cargo Equipment, Tie Downs & Accessories","Fluids & Lubricants","Fuel Cans, Fluid Containers & Accessories","Ignition & Engine Parts","Interior Auto Storage & Accessories","Jacks, Ramps & Stands","Lights, Lamps & Fuses","Mirrors & Reflectors","Repair & Maintenance Supplies","Safety Products","Tires & Wheels","Towing","Trailer Parts & Accessories"],
   "Building Materials": ["Blocks","Bricks","Ceiling Materials","Concrete & Mortar","Construction Aggregate","Deck Materials","Flooring Materials","Gutters & Downspouts","Insulation & House Wrap","Kitchen & Bath Cabinets","Lumber & Plywood","Molding & Millwork","Plastic & Vinyl Sheeting","Roof & Driveway Coatings","Roofing Materials","Siding, Trim Coil & Accessories","Stairs and Railings","Steel Beams","Tile Installation Supplies","Ventilation","Wall Materials","Window Wells and Covers"],
@@ -31,7 +29,7 @@ export const departments = {
   "Toys & Games": ["Indoor Toys"],
 };
 
-// Which departments go in which of the 5 columns (same as the live site).
+// Which departments go in which of the 5 columns 
 const layout = [
   ["Automotive", "Food & Snacks", "Hand Tools", "Safety"],
   ["Building Materials", "Holiday Decorations & Supplies", "Housewares", "Pet Supplies", "Plumbing Supplies"],
