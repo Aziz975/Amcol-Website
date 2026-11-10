@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaSearch, FaUserFriends, FaShoppingCart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const navLinks = [
     { name: "Home", path: "/" },
@@ -42,8 +43,21 @@ function Navbar() {
                 </form>
 
                 <div className="flex gap-12 text-[#1c2f6b]">
-                    <FaUserFriends size={32} />
-                    <FaShoppingCart size={32} />
+                    <Link
+                        to="/login"
+                        aria-label="Login / My Account"
+                        className="transition-colors hover:text-[#c90020]"
+                    >
+                        <FaUserFriends size={32} />
+                    </Link>
+
+                    <Link
+                        to="/cart"
+                        aria-label="Shopping Cart"
+                        className="transition-colors hover:text-[#c90020]"
+                    >
+                        <FaShoppingCart size={32} />
+                    </Link>
                 </div>
             </div>
 
@@ -58,10 +72,9 @@ function Navbar() {
                                 className={({ isActive }) =>
                                     `relative block whitespace-nowrap px-6 py-5 font-bold uppercase transition-colors
                                     before:absolute before:-top-5 before:left-0 before:-right-px before:h-1 before:transition-colors
-                                    ${
-                                        isActive
-                                            ? "text-[#e31837] before:bg-[#e31837]"
-                                            : "text-gray-700 before:bg-transparent hover:text-[#e31837] hover:before:bg-[#e31837]"
+                                    ${isActive
+                                        ? "text-[#e31837] before:bg-[#e31837]"
+                                        : "text-gray-700 before:bg-transparent hover:text-[#e31837] hover:before:bg-[#e31837]"
                                     }`
                                 }
                             >
