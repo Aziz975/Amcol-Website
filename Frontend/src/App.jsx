@@ -5,7 +5,11 @@ import Navbar from "./Components/Navbar/Navbar.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 import Product from "./Components/Products/Products.jsx";
 import Industrial from "./Pages/Industrial.jsx";
+import ContactPage from "./Components/Contactus/ContactPage.jsx";
+import HowToOrderPage from "./Components/HowToOrder/HowToOrderPage.jsx";
+
 import DepartmentsPage from "./Pages/DepartmentsPage";
+
 
 
 
@@ -17,9 +21,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/construction" element={<Construction />} />
-        <Route path="/products" element={<Product/>} />
-        <Route path="/industrial" element={<Industrial/>} />
+
+        <Route path="/products" element={<Product />} />
+        <Route path="/industrial" element={<Industrial />} />
+        <Route path="/contact-us" element={<ContactPage />} />
+        <Route path="/how-to-order" element={<HowToOrderPage />} />
         <Route path="/departments" element={<DepartmentsPage />} />
+
       </Routes>
       <Footer></Footer>
     </>
