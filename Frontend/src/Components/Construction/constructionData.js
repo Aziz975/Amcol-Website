@@ -11,13 +11,13 @@ export const constructionData = {
       products: [
         {
           name: "Red Blocks, Grade 1, 4″ x 8″ x 12″",
-          price: null, // price na ho to card mein nahi dikhega
+          price: 6.32, 
           img: "/images/clayblock1.png",
           href: `${BASE}/product-0000.php`,
         },
         {
           name: "CLAY BLOCK, VERTICAL CORE, 4″ X 8″ X 16″ (HERCULES)",
-          price: null,
+          price: 6.75,
           img: "/images/clayblock2.png",
           href: `${BASE}/product-0000.php`,
         },
