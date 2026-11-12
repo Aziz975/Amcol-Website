@@ -4,7 +4,7 @@ export default function DepartmentCard({ department }) {
   const { title, slug, description, image } = department;
 
   return (
-    <article className="flex h-full flex-col overflow-hidden rounded-[20px] bg-white shadow-[0_10px_30px_rgba(31,47,107,0.12)]">
+    <article className="flex h-full flex-col overflow-hidden rounded-[20px] bg-white transition-all duration-300 ease-out hover:-translate-y-2 shadow-[0_10px_30px_rgba(31,47,107,0.12)]">
       {/* Upar ki red-to-navy patti */}
       <div className="h-1.5 bg-[linear-gradient(to_right,#d71920,#1c2f6b)]" />
 
@@ -26,7 +26,7 @@ export default function DepartmentCard({ department }) {
         </p>
         <Link
           to={`/departments/${slug}`}
-          className="font-bold text-[#d71920] hover:underline"
+          className="font-bold text-[#d71920]"
         >
           Shop {title}
         </Link>
