@@ -85,6 +85,7 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { FaSearch, FaUserFriends, FaShoppingCart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const navLinks = [
     { name: "Home", path: "/" },

@@ -7,8 +7,9 @@ import Product from "./Components/Products/Products.jsx";
 import Industrial from "./Pages/Industrial.jsx";
 import ContactPage from "./Components/Contactus/ContactPage.jsx";
 import HowToOrderPage from "./Components/HowToOrder/HowToOrderPage.jsx";
-
 import DepartmentsPage from "./Pages/DepartmentsPage";
+import ShoppingCartPage from "./Components/Cart/ShoppingCartPage.jsx";
+import LoginPage from "./Components/Login/Login.jsx";
 
 
 
@@ -27,6 +28,8 @@ function App() {
         <Route path="/contact-us" element={<ContactPage />} />
         <Route path="/how-to-order" element={<HowToOrderPage />} />
         <Route path="/departments" element={<DepartmentsPage />} />
+        <Route path="/cart" element={<ShoppingCartPage />} />
+        <Route path="/login" element={<LoginPage />} />
 
       </Routes>
       <Footer></Footer>
